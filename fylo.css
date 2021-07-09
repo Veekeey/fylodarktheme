@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+}
+
+body {
+  background-color: #1D232F;
+  background-image: url("images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center 35rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1B2330;
+  margin-top: 2rem;
+}
+
+nav ul {
+  display: flex;
+  color: #fff;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 2rem;
+} 
+
+
+h2, .content p {
+  color: #fff;
+  margin-left: 40rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 3rem;
+  width: 40%;
+}
+.content p {
+  font-size: 1.5rem;
+  width: 30%;
+}
+
+.content img {
+  transform: translate(80%, 0);
+}
+
+.content button {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  border-radius: 20px;
+  background-image: linear-gradient(#4DC5D3, #41AFD0);
+  margin-left: 50rem;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15rem;
+}
+
+.card {
+  width: 35%;
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
+
+.icon {
+  margin-left: 10rem;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 3rem;
+}
+
+span {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.productivity {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+
+.image {
+  width: 50%;
+}
+
+.product-content {
+  margin-left: -3rem;
+}
+
+h4 {
+  color: #fff;
+  font-size: 3rem;
+  width: 37%;
+}
+
+.see-how {
+  display: flex;
+}
+
+#arrow {
+  width: 30px;
+  height: 30px;
+  margin-top: 2.3rem;
+  margin-left: 5px;
+}
+
+.review {
+  margin-top: 10rem;
+  margin-left: 15rem;
+  margin-bottom: 3rem;
+}
+
+
+.review-persons {
+  display: flex;
+  margin-left: -1rem;
+  margin-top: -1rem;
+}
+
+.person {
+  width: 20%;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #21293C;
+  margin-left: 3rem;
+
+}
+
+
+/* footer */
+
+footer {
+  background-color: #0C1524;
+}
+
+#footer-logo {
+  margin-top: 15rem;
+  margin-left: 15rem;
+  margin-bottom: 2rem;
+} 
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-content {
+  display: flex;
+  margin-left: 10rem;
+}
+
+.group {
+  width: 20%;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.locate {
+  width: 30%;
+}
+
+.lorem {
+  margin-left: 2rem;
+  margin-top: -1.3rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.mobile {
+  margin-left: 8rem;
+}
+
+.about li, .contact-us li {
+  list-style: none;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.phone-contact span, .email-contact span {
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.phone-contact {
+  margin-bottom: 2rem;
+}
+
+/* contact */
+
+.contact {
+  width: 40%;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #1B212F;
+  margin-bottom: 2rem;
+  transform: translate(40%, 50%);
+  padding: 3rem 10rem;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-left: 10rem;
+}
+
+.contact p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.submit input, .submit button {
+  width: 32rem;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.submit input {
+  padding-left: 2rem;
+}
+
+.submit button {
+  width: 200px;
+  margin-left: 2rem;
+  color: #fff;
+  background-color: #8CDAE2;
+}
+
+.submit {
+  margin-bottom: 5px;
+}
+
+
+.contact span {
+  font-size: 15px;
+  color: red;
+}
