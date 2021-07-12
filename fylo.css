@@ -6,7 +6,7 @@ body {
   background-color: #1D232F;
   background-image: url("images/bg-curvy-desktop.svg");
   background-repeat: no-repeat;
-  background-position: center 35rem;
+  background-position: center 16rem;
 }
 
 nav {
@@ -24,84 +24,94 @@ nav ul {
 nav li {
   list-style: none;
   margin-left: 2rem;
-  font-size: 20px;
 } 
 
+nav img {
+  width: 100px;
+  height: 35px;
+}
 
 h2, .content p {
   color: #fff;
-  margin-left: 40rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 h2 {
-  font-size: 3rem;
-  width: 40%;
-}
-.content p {
   font-size: 1.5rem;
+  width: 35%;
+}
+
+.content {
+  transform: translate(35%, 5%);
+}
+
+.content p {
+  font-size: 1rem;
   width: 30%;
 }
 
 .content img {
-  transform: translate(80%, 0);
+  width: 300px;
+  height: 200px;
 }
 
 .content button {
-  width: 200px;
-  height: 40px;
+  width: 120px;
+  height: 30px;
   color: #fff;
   border-radius: 20px;
   background-image: linear-gradient(#4DC5D3, #41AFD0);
-  margin-left: 50rem;
+  border: 0;
+  margin-left: 5rem;
 }
 
 
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 15rem;
+  margin-left: 7rem;
 }
 
 .card {
   width: 35%;
-  margin-top: 7rem;
-  margin-left: 3rem;
+  margin-top: 5rem;
+  margin-left: 7rem;
 }
 
 .icon {
-  margin-left: 10rem;
+  margin-left: 5rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
-  margin-left: 3rem;
 }
 
 span {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
 }
 
 .productivity {
   display: flex;
-  margin-top: 10rem;
-  margin-left: 15rem;
+  margin-top: 8rem;
+  margin-left: 12rem;
 }
 
-.image {
-  width: 50%;
+
+.productivity img {
+  width: 400px;
+  height: 300px;
 }
 
 .product-content {
-  margin-left: -3rem;
+  width: 50%;
+  margin-left: 2rem;
 }
 
 h4 {
   color: #fff;
-  font-size: 3rem;
-  width: 37%;
+  font-size: 1.5rem;
 }
 
 .see-how {
@@ -117,24 +127,21 @@ h4 {
 
 .review {
   margin-top: 10rem;
-  margin-left: 15rem;
-  margin-bottom: 3rem;
+  margin-left: 12rem;
 }
 
 
 .review-persons {
   display: flex;
-  margin-left: -1rem;
-  margin-top: -1rem;
+  margin-top: -20px;
 }
 
 .person {
-  width: 20%;
-  height: 250px;
+  width: 25%;
+  height: 150px;
   border-radius: 10px;
   background-color: #21293C;
-  margin-left: 3rem;
-
+  margin-left: 2rem;
 }
 
 
@@ -145,19 +152,21 @@ footer {
 }
 
 #footer-logo {
-  margin-top: 15rem;
-  margin-left: 15rem;
+  margin-top: 10rem;
   margin-bottom: 2rem;
+  margin-left: 5rem;
+  width: 100px;
+  height: 35px;
 } 
 
 .social-icon {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 .footer-content {
   display: flex;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
 }
 
 .group {
@@ -174,7 +183,7 @@ footer {
   margin-left: 2rem;
   margin-top: -1.3rem;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .mobile {
@@ -189,7 +198,7 @@ footer {
 
 .phone-contact span, .email-contact span {
   font-size: 1rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .phone-contact {
@@ -199,31 +208,32 @@ footer {
 /* contact */
 
 .contact {
-  width: 40%;
-  height: 250px;
+  width: 50%;
+  height: 200px;
   border-radius: 10px;
   background-color: #1B212F;
   margin-bottom: 2rem;
   transform: translate(40%, 50%);
-  padding: 3rem 10rem;
+  padding: 2rem 5rem;
 }
 
 .contact h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #fff;
   margin-left: 10rem;
 }
 
 .contact p {
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
 }
 
 .submit input, .submit button {
-  width: 32rem;
-  height: 50px;
+  width: 50%;
+  height: 30px;
   border-radius: 30px;
+  border: 0;
 }
 
 .submit input {
@@ -231,7 +241,7 @@ footer {
 }
 
 .submit button {
-  width: 200px;
+  width: 150px;
   margin-left: 2rem;
   color: #fff;
   background-color: #8CDAE2;
@@ -243,6 +253,6 @@ footer {
 
 
 .contact span {
-  font-size: 15px;
+  font-size: 12px;
   color: red;
 }
